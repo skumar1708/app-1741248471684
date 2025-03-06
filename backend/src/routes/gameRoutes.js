@@ -1,0 +1,1 @@
+const express = require('express'); const router = express.Router(); const { createGame, getGames } = require('../controllers/gameController'); router.post('/games', createGame); router.get('/games', getGames); module.exports = router;
